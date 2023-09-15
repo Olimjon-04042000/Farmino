@@ -230,3 +230,72 @@ a {
 .choose .choose-cards img {
     border-radius: 10px;
 }
+
+
+/* testimonials styles */
+
+.testimonials {
+    background: #F2EEE9;
+    padding-top: 64px;
+}
+
+.testimonials .title {
+    color: var(--title-color);
+    text-align: center;
+    font-family: Libre Baskerville;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 120%;
+    margin-bottom: 64px;
+}
+
+.testimonials--cards {
+    display: flex;
+    gap: 30px;
+}
+
+.testimonials--card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testimonials--card .desc {
+    text-align: center;
+    margin-bottom: 27px;
+    color: #525560;
+    font-family: Josefin Sans;
+    line-height: 130%;
+}
+
+.testimonials--card img {
+    border-radius: 50%;
+    margin-bottom: 27px;
+}
+
+.testimonials--card .name {
+    color: var(--text-gray);
+    font-family: Libre Baskerville;
+    font-size: 22px;
+    line-height: 32px;
+    margin-bottom: 32px;
+}
+
+.dots {
+    display: flex;
+    gap: 10px;
+    width: 150px;
+    margin: 0 auto;
+}
+
+.dots .dot {
+    width: 10px;
+    height: 10px;
+    margin-bottom: 64px;
+    background-color: #f0c085;
+    border-radius: 50%;
+}
+
+.dots .dot:last-child {
+    background-color: #dc8213;
+}
