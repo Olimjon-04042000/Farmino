@@ -206,3 +206,27 @@ a {
 .main .working-img img:nth-child(3) {
     border-radius: 12px;
 }
+
+
+/* choose styles */
+
+.choose .choose--title {
+    text-align: center;
+    margin-bottom: 30px;
+    color: var(--title-color);
+    font-feature-settings: 'liga' off;
+    font-family: Libre Baskerville;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.choose .choose-cards {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 64px;
+}
+
+.choose .choose-cards img {
+    border-radius: 10px;
+}
