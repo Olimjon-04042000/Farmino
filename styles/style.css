@@ -1,0 +1,29 @@
+/* general styles */
+
+:root {
+    --text-gray: #18191F;
+    --main-font-family: "Josefin Sans , sans-serif";
+    --title-color: #023F3A;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--main-font-family);
+    color: var(--text-gray);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.container {
+    max-width: 1110px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
