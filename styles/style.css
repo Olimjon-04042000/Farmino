@@ -2,7 +2,9 @@
 
 :root {
     --text-gray: #18191F;
+    --text-white: #FFF;
     --main-font-family: "Josefin Sans , sans-serif";
+    --second-font-family: "Libre Baskerville , serif";
     --title-color: #023F3A;
 }
 
@@ -83,4 +85,61 @@ a {
     font-size: 14px;
     font-weight: 700;
     line-height: 20px;
+}
+
+
+/* hero styles */
+
+.hero {
+    padding-top: 119.5px;
+    background-image: url('../images/BG.svg');
+    background-repeat: no-repeat;
+    background-size: 100% 85%;
+}
+
+.hero .hero--title {
+    color: var(--text-white);
+    text-align: center;
+    font-family: var(--second-font-family);
+    font-size: 56px;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+.hero .hero--desc {
+    color: #F5F5F5;
+    text-align: center;
+    font-family: Josefin Sans;
+    margin-bottom: 50px;
+}
+
+.hero .hero--btn {
+    display: flex;
+    width: 470px;
+    margin: 0 auto;
+    gap: 30px;
+    margin-bottom: 60px;
+    cursor: pointer;
+}
+
+.hero .hero--btn a {
+    height: 48px;
+    color: var(--text-white);
+    font-family: Josefin Sans;
+    font-weight: 500;
+    letter-spacing: 0.46px;
+    padding: 15px 50px;
+    border: 1px solid white;
+}
+
+.hero .hero--btn a:hover {
+    background-color: #FFF;
+    color: var(--title-color);
+}
+
+.hero img {
+    width: 825px;
+    margin-left: 150px;
 }
